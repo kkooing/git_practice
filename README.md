@@ -1,6 +1,6 @@
 # Git 연습
 
-## git 도입
+## 깃(git) 최초 설정
 ```
 >git init
 >git config user.name "sampleName"
@@ -36,8 +36,24 @@ Date:   날짜
 ```
 
 ## 깃허브에 업로드
+- 처음 업로드
 ```
 git remote add origin "repo_url"
 git branch -M main
 git push -u origin main
 ```
+- 업로드
+```
+git push
+```
+
+## 깃허브 다운로드
+- 처음 다운로드
+```
+git clone "repo_url"
+```
+- 다운로드
+```
+git pull
+```
+:`git clone`이후에는 `git remote` 생략 가능
