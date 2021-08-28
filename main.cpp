@@ -7,3 +7,7 @@ int main () {
 }
 
 // develop 브랜치에 의한 주석
+
+char B () {
+    return 'b';
+}
