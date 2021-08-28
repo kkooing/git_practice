@@ -11,3 +11,7 @@ int main () {
 int A () {
     return 1;
 }
+
+char B () {
+    return 'b';
+}
