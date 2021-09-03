@@ -62,4 +62,6 @@ git clone "repo_url"
 Fast-forward: 충돌 없음, 커밋 이동  
 conflict    : 충돌 발생, 수정 후 커밋 필요
 
-##
+## 기타
+git commit 에디터 설정
+git config --global core.editor "code --wait"
